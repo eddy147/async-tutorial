@@ -1,8 +1,8 @@
-# async-tutorial
-The code for the udacy's async tutorial is out-of-date. I keep it up-to-date with lein ancient
+## Async tutorial code updated
+The code for the udacy's async tutorial is out-of-date. I keep it up-to-date with lein ancient.
 
-# I got errors with my previous .lein/profiles.clj. With this one it works:
-# See also in the root.
+### Leiningen .profiles.clj
+I use leiningen for project management. With this .profiles.clj it works: (see also profiles.clj in the root) 
 
 ```
 {:user {:dependencies [[org.clojure/clojure "1.9.0"]
