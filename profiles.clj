@@ -1,11 +1,3 @@
-## Async tutorial code updated
-The code for the udacy's async tutorial is out-of-date. You can use this repo to have an up-to-date version.
-Updated with lein ancient.
-
-### Leiningen .profiles.clj
-I use leiningen for project management. With this .profiles.clj it works: (see also profiles.clj in the root) 
-
-```
 {:user {:dependencies [[org.clojure/clojure "1.9.0"]
                        [org.clojure/tools.namespace "0.2.11"]
                        [org.clojure/tools.nrepl "0.2.13"]
@@ -14,4 +6,3 @@ I use leiningen for project management. With this .profiles.clj it works: (see a
                   [lein-cljfmt "0.6.1"]
                   [lein-clojars "0.9.1"]
                   [lein-kibit "0.1.6"]]}}
-```
